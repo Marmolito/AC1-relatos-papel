@@ -1,0 +1,26 @@
+.checkout-summary {
+  padding: 1rem;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  color: white;
+}
+
+.checkout-summary__title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.checkout-summary__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.checkout-summary__item {
+  margin-bottom: 0.5rem;
+}
+
+.checkout-summary__total {
+  font-weight: bold;
+  font-size: 1.2rem;
+}

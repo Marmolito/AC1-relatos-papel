@@ -1,0 +1,20 @@
+.book-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.book-actions__add,
+.book-actions__detail {
+  padding: 0.5rem 1rem;
+  background-color: #0070f3;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-actions__add:hover,
+.book-actions__detail:hover {
+  background-color: #0070f3;
+}

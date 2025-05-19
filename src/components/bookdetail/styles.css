@@ -1,0 +1,36 @@
+.book-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-detail__image {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.book-detail__info {
+  text-align: center;
+}
+
+.book-detail__title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.book-detail__author,
+.book-detail__price,
+.book-detail__description {
+  margin: 0.5rem 0;
+  color: #555;
+}
