@@ -10,10 +10,8 @@ const Landing = () => {
 
     const timer = setTimeout(redirect, 5000);
 
-    // Redirigir en cualquier clic
     document.addEventListener('click', redirect);
 
-    // Limpiar tanto el timeout como el listener al desmontar
     return () => {
       clearTimeout(timer);
       document.removeEventListener('click', redirect);

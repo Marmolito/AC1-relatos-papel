@@ -1,4 +1,3 @@
-// src/pages/checkout/index.jsx
 import { useState } from "react";
 import { useCart } from "../../hooks/cartcontext";
 import { useNavigate } from "react-router-dom";

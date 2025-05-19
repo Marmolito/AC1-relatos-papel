@@ -1,4 +1,3 @@
-// src/components/bookdetail/index.jsx
 import BookActions from '../bookactions';
 import './styles.css';
 

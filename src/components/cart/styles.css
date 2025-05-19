@@ -1,8 +1,8 @@
 
-/* 🛒 Carrito */
+/* Carrito */
 .cart {
   position: fixed;
-  top: 60px; /* si tienes header de 60px, ajusta según */
+  top: 60px;
   right: 0;
   width: 300px;
   max-height: calc(100vh - 60px);
@@ -11,20 +11,20 @@
   box-shadow: -4px 0 10px rgba(0,0,0,0.5);
   padding: 1rem;
   overflow-y: auto;
-  z-index: 1000; /* para que esté encima */
+  z-index: 1000;
   border-left: 1px solid #444;
 }
 
 
 .cart__empty-message {
-  color: #333; /* o cualquier color visible, ej. negro o gris oscuro */
+  color: #333; 
   font-style: italic;
   text-align: center;
   padding: 1rem 0;
 }
 
 .cart__item-quantity {
-  color: #333; /* o cualquier color oscuro que contraste con el fondo */
+  color: #333;
 }
 
 /* Título del carrito */
@@ -38,7 +38,7 @@
 
 .cart__title,
 .cart__item-title {
-  color: #111; /* Negro más fuerte para mayor visibilidad */
+  color: #111; 
 }
 
 /* Lista de ítems */
